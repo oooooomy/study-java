@@ -1,0 +1,49 @@
+# 编译输出目录
+/target/
+/out/
+/bin/
+
+# 依赖管理工具的缓存和依赖目录
+/.m2/repository/          # Maven 本地仓库（如果项目使用 Maven）
+/.gradle/                 # Gradle 缓存和构建目录（如果项目使用 Gradle）
+/build/                   # Gradle 构建输出目录
+
+# IDE 相关文件
+.idea/                    # IntelliJ IDEA 配置目录
+*.iml                     # IntelliJ IDEA 模块文件
+*.ipr                     # IntelliJ IDEA 项目文件
+*.iws                     # IntelliJ IDEA 工作区文件
+.classpath                # Eclipse 类路径文件
+.project                  # Eclipse 项目文件
+.settings/                # Eclipse 设置目录
+bin/                      # Eclipse 编译输出目录
+*.launch                  # Eclipse 启动配置文件
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+
+# 系统文件
+.DS_Store                 # macOS 系统文件
+Thumbs.db                 # Windows 系统文件
+
+# 环境变量文件
+.env                      # 环境变量文件
+*.env                     # 环境变量文件
+
+# 本地配置文件
+application-local.properties
+application-local.yml
+
+# 测试相关文件
+*.jfr                     # Java Flight Recorder 文件
+hs_err_pid*.log           # Java 崩溃日志
+
+# 其他
+*.swp                     # Vim 交换文件
+*.swo                     # Vim 交换文件
+*.bak                     # 备份文件
+*.orig                    # 原始文件
